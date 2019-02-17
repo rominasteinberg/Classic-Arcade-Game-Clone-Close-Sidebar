@@ -2,19 +2,34 @@
 
 ## Table of Contents
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+- [How to open the game](#Instructions to open the game)
+- [How to play the game](#Instructions to open the game)
+- [Goal of the game](#Goal of the game)
 
-## Instructions
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+## Instructions to open the game
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+To run your game locally you should open the file index.html in your favorite browser.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+## Instructions to open the game
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+To play the game, you must use the following commands:
+-> Key up to advance towards the river;
+-> Key down to return;
+-> Key right to go to the right;
+-> Key left to move to the left.
 
-## Contributing
+## Goal of the game 
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The main goal of the game is to reach the other side of the road, the river.
+
+To do this, you have to dodge enemies. Each bug moves at different speeds and should not be touched from any angle.
+
+> Every time you get to the river you gain a life.
+> Every time a bug hits you, you lose a life.
+
+In both cases you return to the exit point.
+
+You start with 3 lives, if you get to 0, you lose the game and start again.
+
+Good luck!
